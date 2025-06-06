@@ -11,7 +11,11 @@
     </parent>
     
     <groupId>com.example</groupId>
+<<<<<<< HEAD
     <artifactId>projet</artifactId>
+=======
+    <artifactId>projet-app</artifactId>
+>>>>>>> fb91bcd06d5a72eea72fba7ce560d13a9bab9877
     <version>0.0.1-SNAPSHOT</version>
     <name>projet</name>
     
@@ -34,12 +38,21 @@
                     <dependency>
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-configuration-processor</artifactId>
+<<<<<<< HEAD
                             <version>3.2.5</version>
                     </dependency>
                     <dependency>
                         <groupId>org.springframework.boot</groupId>
                         <artifactId>spring-boot-docker-compose</artifactId>
                             <version>3.2.6</version>
+=======
+                            <version>3.2.6</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>org.springframework.boot</groupId>
+                        <artifactId>spring-boot-starter-graphql</artifactId>
+                            <version>3.2.5</version>
+>>>>>>> fb91bcd06d5a72eea72fba7ce560d13a9bab9877
                     </dependency>
 
 
